@@ -87,7 +87,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-        <script async defer data-tracking-id="a7ba7f15-d0db-4c4c-9d3c-7918f801c40e" data-api-host="https://folfganwaudmtovkoyka.supabase.co" src="http://localhost:5173/tracker.js"></script>
+        <script async defer data-tracking-id="a7ba7f15-d0db-4c4c-9d3c-7918f801c40e" data-api-host="https://folfganwaudmtovkoyka.supabase.co" src="https://mycalculatorapp.in/tracker.js"></script>
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
