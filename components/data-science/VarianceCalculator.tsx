@@ -32,7 +32,7 @@ const VarianceCalculator: React.FC = () => {
       calculationError={error}
     >
       <div>
-        <label htmlFor="variance-input" className="block text-sm font-medium text-gray-700 mb-1">
+        <label htmlFor="variance-input" className="block text-sm font-medium text-foreground mb-1">
           Enter numbers (comma-separated):
         </label>
         <input
@@ -41,7 +41,7 @@ const VarianceCalculator: React.FC = () => {
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
           placeholder="e.g., 1, 2, 3, 4, 5"
-          className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+          className="mt-1 block w-full px-3 py-2 bg-background border border-input rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-ring sm:text-sm"
         />
       </div>
     </CalculatorCard>
