@@ -1,0 +1,28 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="#ffffff"/>
+  
+  <!-- Chessboard pattern -->
+  <defs>
+    <pattern id="pattern-checker" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="50" height="50" fill="#d1d5db" />
+      <rect x="50" y="0" width="50" height="50" fill="#f3f4f6" />
+      <rect x="0" y="50" width="50" height="50" fill="#f3f4f6" />
+      <rect x="50" y="50" width="50" height="50" fill="#d1d5db" />
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="600" fill="url(#pattern-checker)" />
+
+  <!-- Chess King -->
+  <g transform="translate(450, 50) scale(1.2)">
+    <path d="M225,100 L225,150 L175,150 L175,100 L125,100 L125,50 L175,50 L175,0 L225,0 L225,50 L275,50 L275,100 Z" fill="#4c51bf" stroke="#2c3e50" stroke-width="5"/>
+    <path d="M100,150 C125,200 150,200 150,250 L250,250 C250,200 275,200 300,150" fill="#4c51bf" stroke="#2c3e50" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="125" y="250" width="150" height="150" fill="#4c51bf" stroke="#2c3e50" stroke-width="5"/>
+    <rect x="75" y="400" width="250" height="50" fill="#4c51bf" stroke="#2c3e50" stroke-width="5" rx="10"/>
+  </g>
+  
+  <!-- Arrow showing movement/strategy -->
+  <path d="M750,200 Q850,300 750,400" stroke="#c0392b" stroke-width="15" fill="none" stroke-linecap="round" stroke-dasharray="30 20" />
+   <path d="M735,420 L750,400 L765,420" stroke="#c0392b" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+</svg> 

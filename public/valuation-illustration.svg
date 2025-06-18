@@ -1,0 +1,20 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="600" fill="#ffffff"/>
+  <g transform="translate(100, 100)">
+    <!-- Document -->
+    <rect x="400" y="100" width="500" height="350" fill="#f3f4f6" rx="15" />
+    <line x1="450" y1="160" x2="850" y2="160" stroke="#d1d5db" stroke-width="10" stroke-linecap="round"/>
+    <line x1="450" y1="220" x2="850" y2="220" stroke="#d1d5db" stroke-width="10" stroke-linecap="round"/>
+    <line x1="450" y1="280" x2="750" y2="280" stroke="#d1d5db" stroke-width="10" stroke-linecap="round"/>
+    <line x1="450" y1="340" x2="650" y2="340" stroke="#d1d5db" stroke-width="10" stroke-linecap="round"/>
+    <line x1="450" y1="400" x2="800" y2="400" stroke="#d1d5db" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Magnifying Glass -->
+    <g transform="translate(150, 50) rotate(-20)">
+      <circle cx="200" cy="200" r="120" stroke="#4c51bf" stroke-width="25" fill="rgba(76, 81, 191, 0.2)"/>
+      <line x1="295" y1="305" x2="400" y2="410" stroke="#4c51bf" stroke-width="30" stroke-linecap="round"/>
+    </g>
+     <!-- Highlighted text -->
+    <line x1="450" y1="220" x2="600" y2="220" stroke="#4c51bf" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg> 
